@@ -1,0 +1,94 @@
+.section-about {
+  background-color: rgba(204, 204, 204, 1);
+  padding: 25rem 0;
+  margin-top: -20vh;
+}
+
+.section-features {
+  padding: 20rem 0;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(124, 132, 141, 0.2),
+      rgba(0, 51, 102, 0.8)
+    ),
+    url(/Assets/moretrees.jfif);
+  background-size: cover;
+  margin-top: -15rem;
+
+  transform: skewY(-6deg);
+
+  & > * {
+    transform: skewY(6deg);
+  }
+}
+.section-projects {
+  background-color: rgba(204, 204, 204, 1);
+  padding: 25rem 0 15rem 0;
+  margin-top: -20vh;
+}
+
+.mb-4 {
+  padding: 12rem 0;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(124, 132, 141, 0.2),
+      rgba(0, 51, 102, 0.8)
+    ),
+    url(/Assets/contact3.jfif);
+  background-size: cover;
+  margin-top: -12rem;
+  margin-bottom: 0rem !important;
+
+  color: rgb(196, 196, 196);
+  clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
+
+  //transform: skewY(-6deg);
+
+  //& > * {
+  //transform: skewY(6deg);
+  //}
+  .row {
+    margin-bottom: 3rem;
+  }
+  .btn {
+    font-size: 1.2rem;
+    position: absolute;
+    top: 99%;
+    left: 5.5%;
+    color: rgb(39, 39, 63);
+    background-color: rgb(196, 196, 196);
+    border-color: rgb(39, 39, 63);
+    border-radius: 0.25rem;
+  }
+  .h1-responsive {
+    font-size: xx-large;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 6rem;
+  }
+}
+.footer {
+  width: 100%;
+  background-color: rgba(204, 204, 204, 1);
+  padding: 10px 0px 25px 0px;
+  .bottom_border {
+    border-bottom: 1px solid #323f45;
+    padding-bottom: 20px;
+  }
+  .footer_bottom_ul_amrc {
+    list-style-type: none;
+    padding: 0px;
+    display: table;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+  }
+  .footer_bottom_ul_amrc li {
+    display: inline;
+  }
+  .footer_bottom_ul_amrc li a {
+    color: $color-primary-dark;
+    margin: 0 12px;
+  }
+}

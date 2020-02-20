@@ -1,0 +1,31 @@
+.header {
+  height: 95vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(124, 132, 141, 0.4),
+      rgba(0, 51, 102, 0.8)
+    ),
+    url(/Assets/photo-1500021804447-2ca2eaaaabeb.png);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+
+  &__logo-box {
+    position: absolute;
+    top: 8px;
+    left: 5px;
+  }
+
+  &__logo {
+    height: 11rem;
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-90%, -45%);
+    text-align: justify;
+  }
+}

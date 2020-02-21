@@ -69,7 +69,7 @@
           $color-secondary-light,
           $color-secondary-dark
         ),
-        url(/Assets/kettle.jpg);
+        url(../Assets/kettle.jpg);
     }
     &--2 {
       background-image: linear-gradient(
@@ -77,7 +77,7 @@
           $color-primary-light,
           $color-primary-dark
         ),
-        url(/Assets/morty.PNG);
+        url(../Assets/morty.PNG);
     }
     &--3 {
       background-image: linear-gradient(
@@ -85,7 +85,7 @@
           $color-tertiary-light,
           $color-tertiary-dark
         ),
-        url(/Assets/komodoDragon.jfif);
+        url(../Assets/komodoDragon.jfif);
     }
   }
 

@@ -1,0 +1,54 @@
+.footer {
+  background-color: rgb(39, 39, 39);
+  padding: 1rem 0;
+  font-size: 1.4rem;
+
+  &__logo-box {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+
+  &__logo {
+    width: 15rem;
+    height: auto;
+  }
+
+  &__navigation {
+    border-top: 1px solid rgb(173, 173, 173);
+    padding-top: 2rem;
+  }
+
+  &__list {
+    list-style: none;
+  }
+  &__item {
+    display: inline-block;
+
+    margin-right: 1.5rem;
+  }
+
+  &__link {
+    &:link,
+    &:visited {
+      color: $color-off-white;
+      text-decoration: none;
+      text-transform: uppercase;
+      display: inline-block;
+      transition: all 0.2s;
+      //text-align: center;
+    }
+    &:hover,
+    &:active {
+      color: $color-primary;
+      box-shadow: 0 10px 10px rgba($color-black, 0.4);
+      transform: scale(1.2);
+    }
+  }
+  &__copyright {
+    color: rgb(224, 224, 224);
+  }
+  .row {
+    text-align: center;
+    display: inline;
+  }
+}

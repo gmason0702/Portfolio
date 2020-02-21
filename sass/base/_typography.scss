@@ -23,7 +23,8 @@ body {
     animation-duration: 1s;
     animation-timing-function: ease-out;
     @include respond(phone) {
-      font-size: 50%;
+      font-family: 5rem;
+      letter-spacing: 1rem;
     }
     @include respond(tab-port) {
       font-size: 60%;
@@ -45,6 +46,10 @@ body {
     letter-spacing: 17.4px;
     color: $color-off-white;
     animation: moveInRight 1s ease-out;
+
+    @include respond(phone) {
+      letter-spacing: 0.5;
+    }
 
     @include respond(phone) {
       font-size: 50%;
@@ -78,6 +83,13 @@ body {
   color: transparent;
   letter-spacing: 2px;
   transition: all 0.2s;
+
+  @include respond(tab-port) {
+    font-size: 3rem;
+  }
+  @include respond(phone) {
+    font-size: 2.5rem;
+  }
 
   &:hover {
     transform: scale(1.1);

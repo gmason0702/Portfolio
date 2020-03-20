@@ -887,10 +887,10 @@ body {
     ),
     url(../Assets/contact3.jfif);
   background-size: cover;
-  margin-top: -12rem;
+  margin-top: -13rem;
   margin-bottom: 0rem !important;
   color: #c4c4c4;
-  clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 12vh, 100% 0, 100% 100%, 0 100%);
 }
 .mb-4 .row {
   margin-bottom: 3rem;
@@ -910,4 +910,52 @@ body {
   text-transform: uppercase;
   text-align: center;
   padding-bottom: 6rem;
+}
+
+@media screen and (max-width: 1024px) {
+}
+/* iPad Pro LANDSCAPE*/
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: landscape) {
+}
+/* iPad PORTRAIT*/
+@media screen and (max-width: 769px) {
+}
+/* iPad LANDSCAPE*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+}
+/* iPhone 6/7/8 Plus PORTRAIT */
+@media screen and (max-width: 414px) {
+}
+/* iPhone 6/7/8 Plus LANDSCAPE */
+@media only screen and (min-device-width: 411px) and (max-device-width: 736px) and (orientation: landscape) {
+}
+/* Pixel 2 & Pixel 2 XL PORTRAIT */
+@media screen and (max-width: 412px) {
+}
+/* Pixel 2 LANDSCAPE */
+@media only screen and (min-device-width: 411px) and (max-device-width: 731px) and (orientation: landscape) {
+}
+/* Pixel 2 XL LANDSCAPE */
+@media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (orientation: landscape) {
+}
+/* iPhone 6/7/8 & iPhone X PORTRAIT */
+@media screen and (max-width: 400px) {
+}
+/* iPhone 6/7/8 LANDSCAPE */
+@media only screen and (min-device-width: 411px) and (max-device-width: 667px) and (orientation: landscape) {
+}
+/* Iphone X LANDSCAPE */
+@media only screen and (min-device-width: 411px) and (max-device-width: 822px) and (orientation: landscape) {
+}
+/* Galaxy S5 PORTRAIT */
+@media screen and (max-width: 375px) {
+}
+/* Galaxy S5 LANDSCAPE */
+@media only screen and (min-device-width: 411px) and (max-device-width: 640px) and (orientation: landscape) {
+}
+/* iPhone 5/SE PORTRAIT */
+@media screen and (max-width: 330px) {
+}
+/* iPhone 5/SE LANDSCAPE */
+@media only screen and (min-device-width: 411px) and (max-device-width: 568px) and (orientation: landscape) {
 }

@@ -87,6 +87,14 @@
         ),
         url(../Assets/komodoDragon.jfif);
     }
+    &--4 {
+      background-image: linear-gradient(
+          to right bottom,
+          $color-tertiary-light,
+          $color-tertiary-dark
+        ),
+        url(../Assets/komodoDragon.jfif);
+    }
   }
 
   &__heading {

@@ -410,7 +410,7 @@ body {
   transform: translateY(-1.5rem) scale(1.1);
 }
 .feature-box__details {
-  padding: 2rem;
+  padding: 0.5rem;
 }
 .feature-box__details ul {
   list-style: none;
@@ -419,7 +419,7 @@ body {
 }
 .feature-box__details ul li {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   padding: 1rem;
 }
 .feature-box__details ul li:not(last-child) {
@@ -926,7 +926,10 @@ body {
   clip-path: polygon(0 12vh, 100% 0, 100% 100%, 0 100%);
 }
 .mb-4 .row {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
+}
+.form-control {
+  background-color: #d6d2d2;
 }
 .mb-4 .btn {
   font-size: 1.2rem;

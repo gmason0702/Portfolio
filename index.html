@@ -8,7 +8,7 @@
       crossorigin="anonymous"
     ></script>
     <link
-      href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap"
+      href="https://fonts.googleapis.com/css?family=Titillium+Web+display=swap"
       rel="stylesheet"
     />
     <link
@@ -34,30 +34,35 @@
       <nav class="navigation__nav">
         <ul class="navigation__list">
           <li class="navigation__item">
-            <a href="#header" class="navigation__link">Home</a>
+            <a href="#header" class="navigation__link" id="nav-home">Home</a>
           </li>
           <li class="navigation__item">
             <a
               href="./Assets/gordonResume5.pdf"
               target="_blank"
               class="navigation__link"
+              id="nav-resume"
               >Resume</a
             >
           </li>
           <li class="navigation__item">
-            <a href="#projects" class="navigation__link">Projects</a>
+            <a href="#projects" class="navigation__link" id="nav-projects"
+              >Projects</a
+            >
           </li>
           <li class="navigation__item">
-            <a href="#contact" class="navigation__link">Contact</a>
+            <a href="#contact" class="navigation__link" id="nav-contact"
+              >Contact</a
+            >
           </li>
         </ul>
       </nav>
     </div>
     <!--HEADER-->
     <header id="header" class="header">
-      <div class="header__logo-box">
-        <img src="./Assets/logo5.png" alt="Logo" class="header__logo" />
-      </div>
+      <!-- <div class="header__logo-box">
+        <img src="./Assets/gm3.png" alt="Logo" class="header__logo" />
+      </div> -->
       <div class="header__text-box">
         <h1 class="heading-primary">
           <span class="heading-primary--main">Hello friend</span>
@@ -75,20 +80,16 @@
       <!--ABOUT-->
       <section id="about" class="section-about">
         <div class="u-center-text u-margin-bottom-big">
-          <h2 class="heading-secondary">
-            A little bit about me
-          </h2>
+          <h2 class="heading-secondary">A little bit about me</h2>
         </div>
         <div class="row">
           <div class="col-1-of-2">
-            <h3 class="heading-tertiary u-margin-bottom-small">
-              Welcome!
-            </h3>
+            <h3 class="heading-tertiary u-margin-bottom-small">Welcome!</h3>
             <p class="paragraph">
               I'm happy to see you've found your way to my portfolio, where
               you'll get a sneak peak into who I am, as well as a selection of
-              my latest work and the programming skills I've acquired. I have
-              also attached my resume and a great way to contact me.
+              my latest projects and the programming skills I've acquired. I
+              have also attached my resume and a great way to contact me.
             </p>
             <h3 class="heading-tertiary u-margin-bottom-small">
               Everyone loves an origin story
@@ -96,11 +97,11 @@
             <p class="paragraph">
               Programming snuck it's way into my life slowly over time, a slow
               drip of ones and zeros necessitated by work, then facilitated via
-              an evergrowing curiosity and drive to constantly learn. When I
-              started waking up excited to code, I knew what had to be done, and
-              here we are now! When I'm not logged in, you'll find me doing any
-              number of relaxing but focused(boring) activities such as reading,
-              meditating, or gardening.
+              an evergrowing curiosity and drive to learn. When I started waking
+              up excited to code, I knew what had to be done, and here we are
+              now! When I'm not logged in, you'll find me doing any number of
+              relaxing but focused activities such as reading, meditating,
+              gardening, or beekeeping.
             </p>
             <!-- <a
               href="/Assets/gordonresume4(3).pdf"
@@ -134,17 +135,13 @@
       <!--SKILLS-->
       <section id="skills" class="section-features">
         <div class="u-center-text u-margin-bottom-big">
-          <h2 class="heading-quaternary">
-            Technical Skills
-          </h2>
+          <h2 class="heading-quaternary">Technical Skills</h2>
         </div>
         <div class="row">
           <div class="col-1-of-4">
             <div class="feature-box">
               <i class="feature-box__icon fas fa-paint-brush"></i>
-              <h3 class="heading-tertiary u-margin-bottom-small">
-                Design
-              </h3>
+              <h3 class="heading-tertiary u-margin-bottom-small">Design</h3>
               <div class="feature-box__details">
                 <ul>
                   <li>HTML5</li>
@@ -174,9 +171,7 @@
           <div class="col-1-of-4">
             <div class="feature-box">
               <i class="feature-box__icon fas fa-chart-line"></i>
-              <h3 class="heading-tertiary u-margin-bottom-small">
-                Analytics
-              </h3>
+              <h3 class="heading-tertiary u-margin-bottom-small">Analytics</h3>
               <div class="feature-box__details">
                 <ul>
                   <li>SQL</li>
@@ -208,17 +203,13 @@
 
       <section id="projects" class="section-projects">
         <div class="u-center-text u-margin-bottom-big">
-          <h2 class="heading-secondary">
-            Current Projects
-          </h2>
+          <h2 class="heading-secondary">Current Projects</h2>
         </div>
         <div class="row">
           <div class="col-1-of-3">
             <div class="card">
               <div class="card__side card__side--front">
-                <div class="card__picture card__picture--1">
-                  &nbsp;
-                </div>
+                <div class="card__picture card__picture--1">&nbsp;</div>
                 <h4 class="card__heading">
                   <span class="card__heading-span card__heading-span--1">
                     The Kettle
@@ -259,12 +250,10 @@
           <div class="col-1-of-3">
             <div class="card">
               <div class="card__side card__side--front">
-                <div class="card__picture card__picture--2">
-                  &nbsp;
-                </div>
+                <div class="card__picture card__picture--2">&nbsp;</div>
                 <h4 class="card__heading">
                   <span class="card__heading-span card__heading-span--2">
-                    Morty Creation
+                    ADVENTURE TIME
                   </span>
                 </h4>
                 <div class="card__details">
@@ -288,7 +277,7 @@
                     </div>
                   </div>
                   <a
-                    href="https://codepen.io/gmason0702/full/gObyKbg"
+                    href="https://codepen.io/gmason0702/pen/vYKVwma"
                     target="_blank"
                     class="btn btn--white"
                     >codepen</a
@@ -301,9 +290,7 @@
           <div class="col-1-of-3">
             <div class="card">
               <div class="card__side card__side--front">
-                <div class="card__picture card__picture--3">
-                  &nbsp;
-                </div>
+                <div class="card__picture card__picture--3">&nbsp;</div>
                 <h4 class="card__heading">
                   <span class="card__heading-span card__heading-span--3">
                     Komodo Insurance
@@ -344,29 +331,9 @@
           <div class="col-1-of-3">
             <div class="card">
               <div class="card__side card__side--front">
-                <div class="card__picture card__picture--4">
-                  &nbsp;
-                </div>
+                <div class="card__picture card__picture--4">&nbsp;</div>
                 <h4 class="card__heading">
                   <span class="card__heading-span card__heading-span--1">
-<<<<<<< HEAD
-                    Bookmarked API
-                  </span>
-                </h4>
-                <div class="card__details">
-                  <!-- <ul>
-                    <li>TBA</li>
-                    <li>TBA</li>
-                    <li>TBA</li>
-                    <li>TBA</li>
-                    <li>TBA</li>
-                  </ul> -->
-                  <p>
-                    Group project utilizing ASP.NET Framework Web API.
-                    Bookmarked is a virtual book tracking and rating directory
-                    with a book club feature, allowing bibliophiles to group up
-                    and read a book together, thousands of miles away!
-=======
                     Bookmarked
                   </span>
                 </h4>
@@ -374,7 +341,6 @@
                   <p>
                     ASP.NET Framework Web API. Bookmarked is a virtual book
                     tracking and rating directory with a book club feature.
->>>>>>> 9bdaeb3f8dc34f37fb8cbb24fc37817ca4a2c160
                   </p>
                 </div>
               </div>
@@ -394,6 +360,7 @@
                   <a
                     href="https://github.com/gmason0702/BookmarkedAPI"
                     class="btn btn--white"
+                    target="_blank"
                     >github</a
                   >
                 </div>
@@ -404,29 +371,9 @@
           <div class="col-1-of-3">
             <div class="card">
               <div class="card__side card__side--front">
-                <div class="card__picture card__picture--5">
-                  &nbsp;
-                </div>
+                <div class="card__picture card__picture--5">&nbsp;</div>
                 <h4 class="card__heading">
                   <span class="card__heading-span card__heading-span--2">
-<<<<<<< HEAD
-                    The Sangha MVC
-                  </span>
-                </h4>
-                <div class="card__details">
-                  <!-- <ul>
-                    <li>TBA</li>
-                    <li>TBA</li>
-                    <li>TBA</li>
-                    <li>TBA</li>
-                  </ul> -->
-                  <p>
-                    Created using ASP.NET Framework MVC5. The Sangha is a
-                    meditation directory and practice tracker. Listen to your
-                    favorite Dharma talks or guided meditations. Track those
-                    talks in the My Sits section, or just set the timer and
-                    enjoy a silent sit!
-=======
                     The Sangha
                   </span>
                 </h4>
@@ -435,7 +382,6 @@
                     ASP.NET Framework MVC5. Directory of Dharma talks and guided
                     meditations. Track those talks in the My Sits section or
                     just set the timer and enjoy!
->>>>>>> 9bdaeb3f8dc34f37fb8cbb24fc37817ca4a2c160
                   </p>
                 </div>
               </div>
@@ -455,6 +401,7 @@
                   <a
                     href="https://github.com/gmason0702/Sangha"
                     class="btn btn--white"
+                    target="_blank"
                     >github</a
                   >
                 </div>
@@ -465,34 +412,53 @@
           <div class="col-1-of-3">
             <div class="card">
               <div class="card__side card__side--front">
-                <div class="card__picture card__picture--6">
-                  &nbsp;
-                </div>
+                <div class="card__picture card__picture--6">&nbsp;</div>
                 <h4 class="card__heading">
                   <span class="card__heading-span card__heading-span--3">
-                    Future Projects
+                    Google Books API
                   </span>
                 </h4>
                 <div class="card__details">
                   <p>
-                    TBA
+                    Javascript in Visual Studio Code. Tap into Google's Book API
+                    to search for books by book name or author name. Click on a
+                    list item to get more information about the book, as well as
+                    a link to preview the book.
                   </p>
+                  <!-- <p>TBA</p> -->
                 </div>
               </div>
               <div class="card__side card__side--back card__side--back-3">
                 <div class="card__cta">
                   <div class="card__more-info">
-                    <p class="card__see-source">See source</p>
-                    <p class="card__code">&lt;code&gt;</p>
+                    <p class="card__see-source">KNOWLEDGE GAINED</p>
+                    <div class="card__details">
+                      <ul>
+                        <li>Javascript</li>
+                        <li>HTML/CSS</li>
+                        <li>Fetch</li>
+                        <li>Async</li>
+                      </ul>
+                    </div>
                   </div>
-                  <a href="#" class="btn btn--white">github</a>
+                  <a
+                    href="https://github.com/gmason0702/GoogleBooksAPI"
+                    class="btn btn--white"
+                    target="_blank"
+                    >github</a
+                  >
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div class="u-center-text u-margin-bottom-big">
-          <a href="#" class="btn btn--blue">See all projects</a>
+          <a
+            href="https://github.com/gmason0702"
+            target="_blank"
+            class="btn btn--blue"
+            >See all projects</a
+          >
         </div>
       </section>
 
@@ -587,6 +553,7 @@
             <div class="text-center text-md-left">
               <a
                 class="btn btn-primary"
+                target="_blank"
                 onclick="document.getElementById('contact-form').submit();"
                 >Send</a
               >
@@ -602,7 +569,7 @@
                 <i class="fas fa-map-marker-alt fa-2x"></i>
                 <p>
                   <a
-                    style="text-decoration: none; color: #c4c4c4;"
+                    style="text-decoration: none; color: #c4c4c4"
                     target="_blank"
                     href="https://goo.gl/maps/k4x7biVGSjvAy8oM8"
                     >Carmel, IN 46032 USA</a
@@ -614,7 +581,7 @@
                 <i class="fas fa-phone mt-4 fa-2x"></i>
                 <p>
                   <a
-                    style="text-decoration: none; color: #c4c4c4;"
+                    style="text-decoration: none; color: #c4c4c4"
                     href="tel: +13177538495"
                     >+ 317 753 8495</a
                   >
@@ -626,7 +593,7 @@
                 <!-- <p>gmason0702@gmail.com</p> -->
                 <p>
                   <a
-                    style="text-decoration: none; color: #c4c4c4;"
+                    style="text-decoration: none; color: #c4c4c4"
                     href="mailto:gmason0702@gmail.com"
                     >gmason0702@gmail.com</a
                   >
@@ -640,11 +607,7 @@
     </main>
     <footer class="footer">
       <div class="footer__logo-box">
-        <img
-          src="./Assets/gLogoFooter.png"
-          alt="Full logo"
-          class="footer_logo"
-        />
+        <img src="./Assets/gmLight.png" alt="Full logo" class="footer_logo" />
       </div>
       <div class="row">
         <div class="footer__navigation">
@@ -666,8 +629,7 @@
             </li>
           </ul>
           <p class="footer__copyright">
-            Copyright @2020 | Designed by Gordon Mason | Original design by
-            Jonas Schmedtmann
+            Copyright @2020 | Designed by Gordon Mason
           </p>
         </div>
       </div>
@@ -749,5 +711,7 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+    <script src="js/index.js"></script>
+    t
   </body>
 </html>

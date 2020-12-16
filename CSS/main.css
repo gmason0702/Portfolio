@@ -479,7 +479,7 @@ body {
 }
 .card__picture--2 {
   background-image: linear-gradient(to right bottom, #bbb9b9b0, #4949499c),
-    url(../Assets/morty.PNG);
+    url(../Assets/BMO.PNG);
 }
 .card__picture--3 {
   background-image: linear-gradient(to right bottom, #2998ff, #340453),
@@ -598,9 +598,12 @@ body {
   position: absolute;
   top: 8px;
   left: 5px;
+  opacity: 0.5;
 }
 .header__logo {
-  height: 11rem;
+  margin-left: rem;
+  margin-top: 3rem;
+  height: 3rem;
 }
 .header__text-box {
   position: absolute;
@@ -713,6 +716,7 @@ body {
 }
 
 .navigation__nav {
+  /*target this element with js evenListener to minimize on .navigation__item click*/
   height: 100vh;
   position: fixed;
   top: 0;
@@ -828,11 +832,17 @@ body {
 }
 .footer__logo-box {
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
+  margin-top: -1rem;
 }
-.footer__logo {
-  width: 15rem;
-  height: auto;
+.footer_logo {
+  width: 10rem;
+  height: 10rem;
+  margin-top: 2rem;
+  background-color: #723439;
+  padding: 2rem;
+  border-radius: 50%;
+  border: 1px solid grey;
 }
 .footer__navigation {
   border-top: 1px solid #adadad;
